@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conscious Second Brain</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <aside class="sidebar">
+        <div class="brand-card">
+          <p class="eyebrow">Local-first companion</p>
+          <h1>Conscious Second Brain</h1>
+          <p class="brand-copy">
+            Capture thought, detect patterns, and turn insight into deliberate action.
+          </p>
+        </div>
+
+        <section class="panel stats-panel">
+          <div class="panel-heading">
+            <h2>System pulse</h2>
+            <span id="ai-badge" class="badge">Local fallback</span>
+          </div>
+          <div id="stats-grid" class="stats-grid"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Recent sessions</h2>
+          </div>
+          <div id="session-list" class="session-list empty-state">
+            No sessions yet. Start a reflection or project chat.
+          </div>
+        </section>
+      </aside>
+
+      <main class="main-layout">
+        <section class="hero panel">
+          <div>
+            <p class="eyebrow">Barebones MVP</p>
+            <h2>Your dashboard for thought, projects, and reports</h2>
+            <p class="hero-copy">
+              Each session creates a reusable memory trail, a reflection report, and concrete next
+              actions.
+            </p>
+          </div>
+          <div class="hero-pills">
+            <span>Chat</span>
+            <span>Journal</span>
+            <span>Reports</span>
+            <span>Action engine</span>
+          </div>
+        </section>
+
+        <section class="workspace-grid">
+          <section class="panel composer-panel">
+            <div class="panel-heading">
+              <h2>Capture</h2>
+              <select id="mode-select" class="mode-select">
+                <option value="reflection">Reflection</option>
+                <option value="project">Project</option>
+                <option value="conversation">Conversation</option>
+              </select>
+            </div>
+
+            <div id="chat-thread" class="chat-thread empty-state">
+              Choose a session or begin with a new message.
+            </div>
+
+            <form id="chat-form" class="chat-form">
+              <textarea
+                id="chat-input"
+                placeholder="Write what you are building, feeling, or trying to understand..."
+                rows="5"
+              ></textarea>
+              <button type="submit">Generate report</button>
+            </form>
+          </section>
+
+          <section class="panel report-panel">
+            <div class="panel-heading">
+              <h2>Report</h2>
+              <span id="report-session-label" class="panel-label">Current session</span>
+            </div>
+
+            <div id="report-view" class="report-view empty-state">
+              Your report will appear here after the first message.
+            </div>
+          </section>
+        </section>
+
+        <section class="workspace-grid secondary-grid">
+          <section class="panel notes-panel">
+            <div class="panel-heading">
+              <h2>Notes vault</h2>
+            </div>
+            <form id="note-form" class="note-form">
+              <input id="note-title" type="text" placeholder="Optional title" />
+              <textarea
+                id="note-content"
+                rows="6"
+                placeholder="Save distilled ideas, principles, or decisions..."
+              ></textarea>
+              <button type="submit">Save note</button>
+            </form>
+            <div id="note-list" class="note-list empty-state">No notes yet.</div>
+          </section>
+
+          <section class="panel actions-panel">
+            <div class="panel-heading">
+              <h2>Action engine</h2>
+            </div>
+            <div id="action-list" class="action-list empty-state">
+              Suggested actions will show up here.
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

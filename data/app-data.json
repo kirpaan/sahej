@@ -1,0 +1,80 @@
+{
+  "sessions": [
+    {
+      "id": "session_yiyq504j",
+      "title": "Reflection: I want to build this app but I keep getting stu…",
+      "mode": "reflection",
+      "createdAt": "2026-03-21T12:34:31.288Z",
+      "updatedAt": "2026-03-21T12:37:45.695Z",
+      "messages": [
+        {
+          "id": "message_n0sndvp0",
+          "role": "user",
+          "content": "I want to build this app but I keep getting stuck in overthinking and approval-seeking.",
+          "createdAt": "2026-03-21T12:34:31.288Z"
+        },
+        {
+          "id": "message_4uik6o1j",
+          "role": "assistant",
+          "content": "I’m seeing inner clarity at the center of this. A possible pattern is approval-seeking or image management. The next useful move is to write a two-column note for autopilot vs authentic desire.",
+          "createdAt": "2026-03-21T12:34:31.384Z"
+        },
+        {
+          "id": "message_sgrjufvi",
+          "role": "user",
+          "content": "hi",
+          "createdAt": "2026-03-21T12:37:45.695Z"
+        },
+        {
+          "id": "message_wezze7tv",
+          "role": "assistant",
+          "content": "I’m seeing inner clarity at the center of this. There is room to turn this into a clearer commitment. The next useful move is to write a two-column note for autopilot vs authentic desire.",
+          "createdAt": "2026-03-21T12:37:45.736Z"
+        }
+      ],
+      "report": {
+        "summary": "This reflection is surfacing a tension between instinct and conditioning. Core theme: Inner clarity. No strong recurring distortion was detected yet. Source note: \"hi\"",
+        "themes": [
+          "Inner clarity"
+        ],
+        "patterns": [],
+        "philosophy": "Reflective inquiry: slow down until the real motive becomes visible.",
+        "nextQuestions": [
+          "Which part of this feels socially inherited rather than personally chosen?"
+        ],
+        "generatedAt": "2026-03-21T12:37:45.736Z"
+      },
+      "linkedActionIds": [
+        "action_v2s20vja",
+        "action_fh8s9328"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "note_ctxq0bat",
+      "createdAt": "2026-03-21T12:34:31.404Z",
+      "title": "MVP principle",
+      "content": "Keep the first version local, simple, and useful.",
+      "updatedAt": "2026-03-21T12:34:31.404Z"
+    }
+  ],
+  "actions": [
+    {
+      "id": "action_fh8s9328",
+      "title": "Summarize this session into one sentence of intent",
+      "why": "A single-line intention helps future sessions stay aligned.",
+      "status": "todo",
+      "sourceSessionId": "session_yiyq504j",
+      "createdAt": "2026-03-21T12:34:31.384Z"
+    },
+    {
+      "id": "action_v2s20vja",
+      "title": "Write a two-column note for autopilot vs authentic desire",
+      "why": "Separating the voices makes the internal conflict easier to see.",
+      "status": "todo",
+      "sourceSessionId": "session_yiyq504j",
+      "createdAt": "2026-03-21T12:34:31.384Z"
+    }
+  ]
+}
